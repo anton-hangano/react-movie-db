@@ -15,12 +15,10 @@ const App = () => (
     <Router>
       <Header/>
       <Routes>
-        <Route path='/' element={<Home />}/>
         <Route path='/:movieId' element={<Movie />}/>
         <Route path='/*' element={<NotFound />}/>
-
+        <Route path='/' element={<Home />}/>
       </Routes>
-      <Home/>
       <GlobalStyle/>
     </Router>
   
