@@ -1,5 +1,13 @@
 <h1>Movie Database with React</h1> <h3>by</h3> <h2>Anton Hangano</h2>
 
+<h2>Features</h2>
+
+- Movie Database with searchbar fetching info from the API.
+- "Load More" button fetch results in Home Page and Search Results.
+- Movie information when you click the thumbnail.
+- "Home" button when you are in looking Movie Information throw the thumbnail.
+
+<hr/>
 
 # Getting Started with Create React App
 
