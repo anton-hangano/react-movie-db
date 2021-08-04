@@ -1,3 +1,6 @@
+<h1>Movie Database with React</h1> <h3>by</h3> <h2>Anton Hangano</h2>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
