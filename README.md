@@ -2,10 +2,12 @@
 
 <h2>Features</h2>
 
-- Movie Database with searchbar fetching info from the API.
+- Movie Database with search bar fetching info from the API.
 - "Load More" button fetch results in Home Page and Search Results.
 - Movie information when you click the thumbnail.
-- "Home" button when you are in looking Movie Information throw the thumbnail.
+- "Home" button when you are looking Movie Information throw the thumbnail.
+- Use of PropTypes.
+- Implementation of sessionStorage to save information on the user side.
 
 <hr/>
 
