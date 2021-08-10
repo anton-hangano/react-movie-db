@@ -69,4 +69,7 @@ export const Text = styled.div`
             font-size: var(--fontBig);
         }
     }
+    .success{
+        color: lightgreen;
+    }
 `;

@@ -12,6 +12,38 @@ justify-content: space-between;
 max-width: var(--maxWidth);
 padding: 20px 0;
 margin: 0 auto;
+color: var(--white);
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+.containerLoggedin{
+    display: flex;
+    background: var(--darkGrey);
+    border-style: solid;
+    border-color: white;
+    width: 25%;
+    min-width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: var(--fontMed);
+    margin: 20px auto;
+    transition: all 0.3s;
+    outline: none;
+    cursor: pointer;
+
+    :hover {
+    opacity: 0.8;
+}
+
+p {
+        margin: auto;
+        position: relative;
+        color: var(--white);
+        font-size: var(--fontMed);
+    }
+}
 `;
 
 export const LogoImg = styled.img`

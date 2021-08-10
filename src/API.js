@@ -60,6 +60,7 @@ const apiSettings = {
     }
   },
   rateMovie: async (sessionId, movieId, value) => {
+    console.log(sessionId)
     const endpoint = `${API_URL}movie/${movieId}/rating?api_key=${API_KEY}&session_id=${sessionId}`;
 
     const rating = await (
