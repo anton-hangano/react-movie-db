@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Wrapper } from './Rate.styles';
 
 const Rate = ({ callback }) => {
     const [value, setValue] = useState(5);
@@ -13,9 +14,10 @@ const Rate = ({ callback }) => {
                 value={value}
                 onChange={e => setValue(e.currentTarget.value)} />
             {value}
-            <p>
-                <button onClick={() => callback(value)}>Rate</button>
-            </p>
+            <Wrapper type="button" onClick={() => callback(value)}>
+            <p>Rate</p>
+            </Wrapper>
+            
         </div>
     )
 }
