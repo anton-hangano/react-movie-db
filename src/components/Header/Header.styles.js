@@ -14,6 +14,11 @@ padding: 20px 0;
 margin: 0 auto;
 color: var(--white);
 
+@media screen and (max-width: 768px){
+    flex-direction: column;
+
+}
+
 a {
     color: var(--white);
     text-decoration: none;
@@ -36,20 +41,33 @@ a {
     :hover {
     opacity: 0.8;
 }
+    @media screen and (max-width: 768px){
+    height: auto;
+    width: 45%;
+    max-width: 320px;
+}
 
 p {
         margin: auto;
         position: relative;
         color: var(--white);
         font-size: var(--fontMed);
+
+
+        @media screen and (max-width: 768px){
+        text-align: center;
+        
+
     }
+    }
+    
 }
 `;
 
 export const LogoImg = styled.img`
 width: 200px;
 @media screen and (max-width: 500px){
-    width: 150px;
+    width: 190px;
 }
 `;
 
@@ -57,6 +75,6 @@ export const TMDBLogoImg = styled.img`
     width: 100px;
 
     @media screen and (max-width:500px){
-     width: 80px;
+     width: 100px;
     }
 `;
